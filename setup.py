@@ -11,7 +11,9 @@ setup(
         "pyyaml>=6.0",
         "gitpython>=3.1",
         "frontmatter>=1.0",
-        "fuzzywuzzy>=0.18"
+        "fuzzywuzzy>=0.18",
+        "pytest>=7.0",
+        "pytest-cov>=3.0"
     ],
     entry_points={
         "console_scripts": [
