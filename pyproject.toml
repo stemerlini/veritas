@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "veritas"
+version = "0.1.0"
+description = "A version-controlled knowledge graph for truth-seeking."
+authors = [{ name = "Stefano Merlini", email = "stefano.merlini19@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "click>=8.0",
+    "pyyaml>=6.0",
+    "gitpython>=3.1",
+    "frontmatter>=1.0",
+    "fuzzywuzzy>=0.18"
+]
