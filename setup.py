@@ -10,7 +10,7 @@ setup(
         "click>=8.0",
         "pyyaml>=6.0",
         "gitpython>=3.1",
-        "frontmatter>=1.0",
+        "python-frontmatter>=1.0",
         "fuzzywuzzy>=0.18",
         "pytest>=7.0",
         "pytest-cov>=3.0"
