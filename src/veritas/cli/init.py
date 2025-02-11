@@ -1,5 +1,5 @@
-import click
 import os
+import click
 from git import Repo
 
 @click.command()
