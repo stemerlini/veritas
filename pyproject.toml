@@ -6,15 +6,17 @@ build-backend = "setuptools.build_meta"
 name = "veritas"
 version = "0.1.0"
 description = "A version-controlled knowledge graph for truth-seeking."
-authors = [{ name = "Stefano Merlini", email = "stefano.merlini19@gmail.com" }]
+authors = [{ name = "stemerlini", email = "stefano.merlini19@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
     "click>=8.0",
     "pyyaml>=6.0",
     "gitpython>=3.1",
-    "python-frontmatter>=1.1.0",  # Fixed dependency
-    "fuzzywuzzy>=0.18"
+    "python-frontmatter>=1.1.0",
+    "fuzzywuzzy>=0.18",
+    "flask>=2.0",          # Add Flask
+    "websockets>=10.0"     # Add WebSockets
 ]
 
 [project.optional-dependencies]
